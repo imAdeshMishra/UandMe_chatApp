@@ -11,41 +11,26 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="5dp">
 
-
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/sent_drawable"
-            android:orientation="vertical"
-            android:padding="5dp"
-            android:layout_marginRight="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <ImageView
-                android:id="@+id/image"
-                android:layout_width="200dp"
-                android:layout_height="130dp"
-                android:layout_margin="5dp"
-                android:scaleType="centerCrop"
-                android:visibility="gone"
-                app:srcCompat="@drawable/avatar" />
-
             <LinearLayout
+                android:id="@+id/linearLayout"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:background="@drawable/sent_drawable"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
                 <TextView
                     android:id="@+id/message"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="5dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="5dp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
                     android:textSize="15sp" />
 
                 <TextView
@@ -53,11 +38,11 @@
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
                     android:textSize="8sp"
-                    android:layout_gravity="center"
-                    android:gravity="center"/>
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    tools:ignore="SmallSp" />
 
             </LinearLayout>
-        </LinearLayout>
 
         <ImageView
             android:id="@+id/feeling"
