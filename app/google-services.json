@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "732645160010",
+    "project_id": "uandme-bc194",
+    "storage_bucket": "uandme-bc194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732645160010:android:69e580af873e87c91062b3",
+        "android_client_info": {
+          "package_name": "com.example.uandme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV9ffCVLv5482yM2roYU2CKCAkPEo4MSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
