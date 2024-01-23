@@ -28,10 +28,11 @@
                     android:id="@+id/message"
                     android:layout_width="0dp"
                     android:layout_weight="1"
+                    android:maxWidth="240dp"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
+                    android:padding="5dp"
                     android:textColor="@color/white"
-                    android:textSize="15sp" />
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/sender_msg_time"

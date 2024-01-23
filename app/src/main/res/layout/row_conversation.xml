@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-
-    android:paddingTop="10dp"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
+    android:padding="10dp"
     android:background="?selectableItemBackground">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -24,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="Sample Name"
-        android:textSize="16sp"
+        android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/profile"
         app:layout_constraintTop_toTopOf="@+id/profile" />
@@ -33,8 +30,10 @@
         android:id="@+id/lastMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:maxWidth="250dp"
         android:text="Tap to chat"
-        android:textSize="14sp"
+        android:textSize="15sp"
+        android:maxLines="1"
         app:layout_constraintStart_toStartOf="@+id/username"
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
